@@ -1,0 +1,46 @@
+body{
+    background-image: url("images/astronauta.png");
+    font-family: 'Russo One', sans-serif;
+}
+
+header{
+    display: flex;
+
+}
+
+.logo {
+    margin: 1rem 3rem 3rem;
+    
+  }
+  
+  
+  .menu{
+    
+      align-items: center;
+      margin: 5rem 10rem;
+      position: relative;
+      display: flex;
+      
+  }
+
+  .menu li a{
+      margin-left: 3rem;
+  font-size: 1.3rem;
+
+   text-decoration: none;
+   color: rgba(225, 220, 0);
+   padding: 0.4rem 4rem;
+   border: solid rgb(49, 49, 49) 2px;
+   border-radius: 1rem;
+  }
+
+menu li a:hover{
+    transition: 0.5s;
+    background-color: rgb(49, 49, 49);
+}
+
+.button{
+    
+    text-align: center;
+
+}
